@@ -20,28 +20,46 @@ class PerguntaAppState extends State<PerguntaApp> {
     {
       'texto': 'Qual o seu livro Favorito?',
       'respostas': [
-        {'texto': 'Jogos vorazes', 'pontuacao': 3},
+        {'texto': 'Jogos vorazes', 'pontuacao': 2},
         {'texto': 'Rainha Vermelha ', 'pontuacao': 3},
-        {'texto': 'Harry Potter', 'pontuacao': 6},
+        {'texto': 'Harry Potter', 'pontuacao': 5},
         {'texto': 'Sherlock Homes', 'pontuacao': 3},
       ],
     },
     {
-      'texto': 'Qual é o seu Hobie favorito?',
+      'texto': 'Qual é o seu Hobbie favorito?',
       'respostas': [
-        {'texto': 'Musculação', 'pontuacao': 5},
-        {'texto': 'Dança', 'pontuacao': 2},
-        {'texto': 'Leitura', 'pontuacao': 3},
-        {'texto': 'Programar', 'pontuacao': 6},
+        {'texto': ' Pintura', 'pontuacao': 2},
+        {'texto': 'Dança', 'pontuacao': 3},
+        {'texto': 'Leitura', 'pontuacao': 5},
+        {'texto': 'Programar', 'pontuacao': 4},
       ],
     },
     {
       'texto': 'Qual sua Serie Favorita??',
       'respostas': [
-        {'texto': 'One day of the Time', 'pontuacao': 3},
-        {'texto': 'The flash', 'pontuacao': 2},
+        {'texto': 'One day of the Time', 'pontuacao': 2},
+        {'texto': 'The flash', 'pontuacao': 3},
         {'texto': 'The originals', 'pontuacao': 5},
-        {'texto': 'Supergirl', 'pontuacao': 2},
+        {'texto': 'Supergirl', 'pontuacao': 4},
+      ],
+    },
+    {
+      'texto': 'Qual seu Filme Favorito??',
+      'respostas': [
+        {'texto': 'Clube dos cinco', 'pontuacao': 2},
+        {'texto': 'Harry potter', 'pontuacao': 3},
+        {'texto': 'Guerra Mundial Z', 'pontuacao': 5},
+        {'texto': 'Matrix', 'pontuacao': 4},
+      ],
+    },
+    {
+      'texto': 'Qual seu Esporte Favorito?',
+      'respostas': [
+        {'texto': 'Musculação', 'pontuacao': 2},
+        {'texto': 'Volei', 'pontuacao': 3},
+        {'texto': 'Natação', 'pontuacao': 5},
+        {'texto': 'futebol', 'pontuacao': 1},
       ],
     },
   ];

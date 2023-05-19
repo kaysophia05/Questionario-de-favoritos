@@ -7,11 +7,11 @@ class Resultado extends StatelessWidget {
   final void Function() onRestart;
 
   String get message {
-    if (pontuacao < 8) {
+    if (pontuacao < 15) {
       return 'Parabéns!!';
-    } else if (pontuacao < 12) {
+    } else if (pontuacao < 18) {
       return 'Nossa!! Você é bom!! ';
-    } else if (pontuacao < 16) {
+    } else if (pontuacao < 20) {
       return 'UAU! Você é incrivel';
     } else {
       return 'Você é impressionante!!';
